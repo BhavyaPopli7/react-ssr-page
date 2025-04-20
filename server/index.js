@@ -14,7 +14,7 @@ const { StaticRouter } = require('react-router-dom/server');
 const App = require('../src/App').default;
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 3000;
 
 
 app.use('/images', express.static(path.resolve(__dirname, '../public/images'), {
