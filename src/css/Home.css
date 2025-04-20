@@ -1,0 +1,31 @@
+.banner-image {
+  width: 100%;
+  margin-top: 0;
+  height: 600px;
+}
+
+.section-image {
+  width: 400px;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.home-container {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.images-section {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
